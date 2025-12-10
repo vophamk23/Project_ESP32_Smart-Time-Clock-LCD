@@ -9,6 +9,17 @@
 // Tạo đối tượng LCD với địa chỉ I2C, số cột và số hàng từ file config
 static LiquidCrystal_I2C lcd(LCD_ADDRESS, LCD_COLS, LCD_ROWS);
 
+// Icon đồng hồ (5x8)
+byte clockIcon[8] = {
+    0b00000,
+    0b01110,
+    0b10101,
+    0b10111,
+    0b10001,
+    0b01110,
+    0b00000,
+    0b00000};
+
 // ============================================================================
 // HÀM KHỞI TẠO LCD
 // ============================================================================
@@ -19,9 +30,15 @@ void initLCD()
     lcd.backlight(); // Bật đèn nền của LCD để có thể nhìn thấy
     lcd.clear();     // Xóa toàn bộ nội dung trên màn hình
 
+    // ---- Tạo icon đồng hồ vào vị trí số 0 ----
+    lcd.createChar(0, clockIcon);
+
     // Hiển thị thông báo chào mừng khi khởi động
-    lcd.setCursor(0, 0);          // Di chuyển con trỏ đến cột 0, hàng 0 (hàng đầu tiên)
-    lcd.print("Smart Clock");     // In chữ "Smart Clock"
+    lcd.setCursor(0, 0);      // Di chuyển con trỏ đến cột 0, hàng 0 (hàng đầu tiên)
+    lcd.print("Smart Clock"); // In chữ "Smart Clock"
+
+    lcd.write(byte(0)); // In icon đồng hồ sau chữ "Smart Clock"
+
     lcd.setCursor(0, 1);          // Di chuyển con trỏ đến cột 0, hàng 1 (hàng thứ hai)
     lcd.print("Initializing..."); // In chữ "Initializing..."
     delay(3000);                  // Đợi 2 giây để người dùng đọc thông báo
@@ -69,14 +86,14 @@ void displayLCD_TempHumidity(DHT *dht)
 
     // Hiển thị nhiệt độ trên dòng 1
     lcd.setCursor(0, 0);  // Đặt con trỏ ở đầu dòng 1
-    lcd.print("Temp: ");  // In nhãn "Temp: "
+    lcd.print("TEMP: ");  // In nhãn "Temp: "
     lcd.print(temp, 1);   // In giá trị nhiệt độ với 1 chữ số thập phân
     lcd.print((char)223); // In ký tự độ ° (mã ASCII 223)
     lcd.print("C  ");     // In "C" và khoảng trắng để xóa ký tự thừa
 
     // Hiển thị độ ẩm trên dòng 2
     lcd.setCursor(0, 1); // Đặt con trỏ ở đầu dòng 2
-    lcd.print("Humi: "); // In nhãn "Humi: "
+    lcd.print("HUMI: "); // In nhãn "Humi: "
     lcd.print(humi, 1);  // In giá trị độ ẩm với 1 chữ số thập phân
     lcd.print("%    ");  // In "%" và khoảng trắng để xóa ký tự thừa
 }

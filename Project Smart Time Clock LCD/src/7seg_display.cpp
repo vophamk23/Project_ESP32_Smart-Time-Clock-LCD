@@ -76,7 +76,7 @@ void showSavedLaps(LedControl *lc)
         {
             displayLapValue(lc, laps[i]);
             displayLCD_LapValue(laps[i]);
-            delay(10);
+            delay(1000);
         }
         lc->clearDisplay(0);
     }
