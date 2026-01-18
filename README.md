@@ -8,7 +8,9 @@
 
 <br>
 
-![Smart Clock System](path/to/your/hero-image.jpg)
+![Uploading Smart Time Clock.jpg…]()
+
+
 
 *ESP32-based smart clock featuring LED 7-segment display, LCD screen, RTC module, and temperature sensor*
 
