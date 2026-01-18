@@ -31,7 +31,6 @@
 - [Pin Configuration](#-pin-configuration)
 - [Installation](#-installation)
 - [Usage Guide](#-usage-guide)
-- [System Architecture](#%EF%B8%8F-system-architecture)
 - [Display Formats](#-display-formats)
 - [Project Structure](#-project-structure)
 - [Troubleshooting](#-troubleshooting)
