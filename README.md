@@ -1,7 +1,7 @@
 # 🕐 Smart Clock ESP32
 
 <div align="center">
-![Smart Clock System](Smart%20Time%20Clock.jpg)
+
 
 **Multi-functional Smart Clock System with ESP32**
 
@@ -408,7 +408,7 @@ MIT License — see [LICENSE](LICENSE) for details.
 
 <br>
 
-
+![Smart Clock System](Smart%20Time%20Clock.jpg)
 
 
 
