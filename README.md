@@ -9,19 +9,21 @@
 <div align="center">
 
 **Multi-functional Smart Clock System with ESP32**
-
-<br/>
-
-![Smart Clock System](Report/Smart%20Time%20Clock.jpg)
-
 *Real-time scheduling · Dual displays · NTP sync · Environmental monitoring · Web Dashboard*
-
-<br/>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Platform: ESP32](https://img.shields.io/badge/Platform-ESP32-blue.svg?style=for-the-badge&logo=espressif&logoColor=white)](https://www.espressif.com/en/products/socs/esp32)
 [![Framework: Arduino](https://img.shields.io/badge/Framework-Arduino-00979D.svg?style=for-the-badge&logo=arduino&logoColor=white)](https://www.arduino.cc/)
 [![Build: PlatformIO](https://img.shields.io/badge/Build-PlatformIO-E36B26.svg?style=for-the-badge&logo=platformio&logoColor=white)](https://platformio.org/)
+<br/>
+
+![Smart Clock System](Report/Smart%20Time%20Clock.jpg)
+
+
+
+<br/>
+
+
 
 </div>
 
