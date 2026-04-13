@@ -1,6 +1,32 @@
+<div align="center">
+
+<!-- ESP32 Chip Logo -->
+<svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="14" y="14" width="44" height="44" rx="6" fill="#1A5276"/>
+  <rect x="20" y="20" width="32" height="32" rx="3" fill="#2E86C1"/>
+  <rect x="26" y="26" width="20" height="20" rx="2" fill="#1A5276"/>
+  <text x="36" y="38" text-anchor="middle" dominant-baseline="middle" font-size="9" font-weight="500" fill="#AED6F1">ESP32</text>
+  <line x1="8" y1="24" x2="14" y2="24" stroke="#AED6F1" stroke-width="2" stroke-linecap="round"/>
+  <line x1="8" y1="32" x2="14" y2="32" stroke="#AED6F1" stroke-width="2" stroke-linecap="round"/>
+  <line x1="8" y1="40" x2="14" y2="40" stroke="#AED6F1" stroke-width="2" stroke-linecap="round"/>
+  <line x1="8" y1="48" x2="14" y2="48" stroke="#AED6F1" stroke-width="2" stroke-linecap="round"/>
+  <line x1="58" y1="24" x2="64" y2="24" stroke="#AED6F1" stroke-width="2" stroke-linecap="round"/>
+  <line x1="58" y1="32" x2="64" y2="32" stroke="#AED6F1" stroke-width="2" stroke-linecap="round"/>
+  <line x1="58" y1="40" x2="64" y2="40" stroke="#AED6F1" stroke-width="2" stroke-linecap="round"/>
+  <line x1="58" y1="48" x2="64" y2="48" stroke="#AED6F1" stroke-width="2" stroke-linecap="round"/>
+  <line x1="24" y1="8" x2="24" y2="14" stroke="#AED6F1" stroke-width="2" stroke-linecap="round"/>
+  <line x1="32" y1="8" x2="32" y2="14" stroke="#AED6F1" stroke-width="2" stroke-linecap="round"/>
+  <line x1="40" y1="8" x2="40" y2="14" stroke="#AED6F1" stroke-width="2" stroke-linecap="round"/>
+  <line x1="48" y1="8" x2="48" y2="14" stroke="#AED6F1" stroke-width="2" stroke-linecap="round"/>
+  <line x1="24" y1="58" x2="24" y2="64" stroke="#AED6F1" stroke-width="2" stroke-linecap="round"/>
+  <line x1="32" y1="58" x2="32" y2="64" stroke="#AED6F1" stroke-width="2" stroke-linecap="round"/>
+  <line x1="40" y1="58" x2="40" y2="64" stroke="#AED6F1" stroke-width="2" stroke-linecap="round"/>
+  <line x1="48" y1="58" x2="48" y2="64" stroke="#AED6F1" stroke-width="2" stroke-linecap="round"/>
+</svg>
+
 # 🕐 Smart Clock ESP32
 
-<div align="center">
+**Multi-functional Smart Clock System with ESP32**
 
 _Real-time scheduling · Dual displays · NTP sync · Environmental monitoring · Web Dashboard_
 
