@@ -2,7 +2,11 @@
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/embeddedc/embeddedc-original.svg" width="80" height="80" alt="Smart Clock ESP32"/>
 
+</div>
+
 # 🕐 Smart Clock ESP32
+
+<div align="center">
 
 **Multi-functional Smart Clock System with ESP32**
 
@@ -18,6 +22,8 @@
 [![Platform: ESP32](https://img.shields.io/badge/Platform-ESP32-blue.svg?style=for-the-badge&logo=espressif&logoColor=white)](https://www.espressif.com/en/products/socs/esp32)
 [![Framework: Arduino](https://img.shields.io/badge/Framework-Arduino-00979D.svg?style=for-the-badge&logo=arduino&logoColor=white)](https://www.arduino.cc/)
 [![Build: PlatformIO](https://img.shields.io/badge/Build-PlatformIO-E36B26.svg?style=for-the-badge&logo=platformio&logoColor=white)](https://platformio.org/)
+
+</div>
 
 </div>
 ## 📋 Table of Contents
