@@ -211,7 +211,7 @@ setup() chạy tuần tự:
        ├─ SCH_Init_Timer()   → Cấu hình hardware timer (80MHz ÷ 80 = 1μs/tick)
        │                       Alarm = 10ms → ISR gọi SCH_Update() mỗi 10ms
        │
-       └─ SCH_Add_Task(...)  → Đăng ký 8 task với delay/period tính bằng ticks
+       └─ SCH_Add_Task(...)  → Đăng ký 8 task với delay/period tính bằng ticks (10ms)
 ```
 
 
