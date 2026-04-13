@@ -9,6 +9,7 @@
 <div align="center">
 
 **Multi-functional Smart Clock System with ESP32**
+
 *Real-time scheduling · Dual displays · NTP sync · Environmental monitoring · Web Dashboard*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
