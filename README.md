@@ -1,23 +1,25 @@
-# 🕐 Smart Clock ESP32
-
 <div align="center">
 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/embeddedc/embeddedc-original.svg" width="80" height="80" alt="Smart Clock ESP32"/>
+
+# 🕐 Smart Clock ESP32
+
 **Multi-functional Smart Clock System with ESP32**
-<br>
+
+<br/>
 
 ![Smart Clock System](Report/Smart%20Time%20Clock.jpg)
 
-_Real-time scheduling · Dual displays · NTP sync · Environmental monitoring · Web Dashboard_
+*Real-time scheduling · Dual displays · NTP sync · Environmental monitoring · Web Dashboard*
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Platform: ESP32](https://img.shields.io/badge/Platform-ESP32-blue.svg)](https://www.espressif.com/en/products/socs/esp32)
-[![Framework: Arduino](https://img.shields.io/badge/Framework-Arduino-teal.svg)](https://www.arduino.cc/)
-[![Build: PlatformIO](https://img.shields.io/badge/Build-PlatformIO-orange.svg)](https://platformio.org/)
+<br/>
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![Platform: ESP32](https://img.shields.io/badge/Platform-ESP32-blue.svg?style=for-the-badge&logo=espressif&logoColor=white)](https://www.espressif.com/en/products/socs/esp32)
+[![Framework: Arduino](https://img.shields.io/badge/Framework-Arduino-00979D.svg?style=for-the-badge&logo=arduino&logoColor=white)](https://www.arduino.cc/)
+[![Build: PlatformIO](https://img.shields.io/badge/Build-PlatformIO-E36B26.svg?style=for-the-badge&logo=platformio&logoColor=white)](https://platformio.org/)
 
 </div>
-
----
-
 ## 📋 Table of Contents
 
 - [Overview](#-overview)
