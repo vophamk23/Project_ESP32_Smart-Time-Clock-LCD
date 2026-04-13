@@ -1,6 +1,7 @@
 <div align="center">
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/embeddedc/embeddedc-original.svg" width="80" height="80"/>
+![ESP32 Logo](https://img.shields.io/badge/-ESP32-1A5276?style=for-the-badge&logo=espressif&logoColor=white&labelColor=2E86C1)
+
 
 
 # 🕐 Smart Clock ESP32
